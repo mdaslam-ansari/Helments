@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root{
+    --yellow:#d88e19;
+    --bg:#0e0e0e;
+}
+
+.navbar-brand i {
+    color: #d88e19;
+    font-size: 30px;
+}
+.navbar-brand {
+   font-size: 30px ;
+   font-weight: 500;
+}
+.navbar-nav .nav-item{
+    margin: 0px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color:var(--yellow);
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    border-bottom: 2px solid var(--yellow);
+    transition: all 0.5s ease in;
+    color:var(--yellow) !important;
+    
+}
+
+.endbtn i{
+    font-size: 25px;
+    margin: 0px 14px;
+}
+
+/* HOME SECTION */
+
+.home{
+    background-color: #0e0e0e;
+}
+
+
+.box{
+    width: 100%;
+    min-height: 400px;
+    background-color:#0e0e0e;
+}
+.carousel-control-prev-icon{
+    background-color: black !important;
+    color: black !important;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.carousel-control-next-icon{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.carousel-caption{
+    text-align: center;
+    margin-top: 40px !important;
+}
+.carousel-caption h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: .2;
+}
+.carousel-caption h1 span{
+    color: #f39c12;
+}
+.carousel-caption.d-md-block {
+   
+    padding-bottom: 100px;
+}
+
+.homebtn .btn-warning{
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+} 
+.homebtn .btn-light{
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+} 
+
+
+/* WELCOME SECTION */
+
+.text-center h1{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+  .wecomtext h1::before{
+    content: " ━    ";
+    color:rgb(236, 187, 10) ;
+    font-weight: bold;
+  }
+  .wecomtext h1::after{
+    content: " ━    ";
+    color:rgb(236, 187, 10) ;
+    font-weight: bold;
+    
+}
+.text-center p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card-body p.nummber{
+    color: var(--yellow) !important;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.card {
+   border: none !important;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+
+
+ /* OUR service */
+
+ .service{
+   background-color: #f6f6f6;
+ }
+ .servicebody{
+    background-color:#d88e19;
+ }
+ .servicebody{
+    color: #f6f6f6;
+ }
+ .servicebody i{
+   padding: 5px;
+    font-size:  25px;
+    background-color:#e2aa53;
+ }
+
+ 
+ .servicebodyblack{
+    background-color:var(--bg);
+ }
+ .servicebodyblack{
+    color: #f6f6f6;
+ }
+ .servicebodyblack i{
+   padding: 5px;
+    font-size:  25px;
+    background-color:#2f2f2f;
+ }
+
+ /* HIRE US */
+
+ .hireus{
+    width:100%;
+    background-color: #0e0e0e;
+ }
+ .hireus .container{
+     border: 1px solid gray;
+     padding: 10px;
+     border-radius: 5px;
+ }
+ .hirerow .text{
+   color: #f6f6f6;
+   font-size: 19px;
+   
+ }
+ .hirerow .btn{
+    color: #f6f6f6;
+ }
+ .tabsection{
+    margin-top: 30px;
+ }
+
+ .nav-pills .nav-link.active{
+    background-color: var(--yellow) !important;
+    color: #f6f6f6;
+ }
+ .nav-pills .nav-link {
+    color: black;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+ }
+
+
+ /* OUR GAILLRY */
+
+
+ .gailrybtn .btn{
+    padding: 10px 16px;
+    font-size: 18px;
+    color: #f6f6f6;
+ }
+
+ /* LETEST NEWS */
+
+ .letestnewscard{
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+ }  
+
+
+ /* testimonial */
+.testimonial{
+  background-color:#f6f6f6 ;
+}
+
+ 
+ .col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel-item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color:var(--yellow);
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: var(--yellow);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+/* OUR CLINT */
+
+.main {
+  text-align: center;
+ 
+}
+
+.marq {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.company img{
+  margin: 0px 40px;
+}
+
+
+
+/* FOOTER */
+footer{
+  background-color:#191919;
+}
+.footertext h2{
+  color: #ddd;
+  
+}
+.footertext p{
+  color:white;
+  opacity: 0.2;
+}
+.footertext ul li {
+    color: #ddd;
+    list-style: none;
+    line-height: 30px;
+    opacity: 0.2;
+}
+.footertext ul li:hover{
+    color: var(--yellow);
+    border-bottom: 1px solid gray;
+
+}
+
+.footernews h5 span{
+    color: var(--yellow) !important;
+}
+.footernews h5{
+    font-size: 15px;
+    color: white !important;
+    opacity: 0.2;
+}
+
+.newsone::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 7px;
+}
